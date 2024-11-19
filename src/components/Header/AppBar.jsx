@@ -5,7 +5,7 @@ import {
     ExperienceIconSVG, 
     HomeIconSVG, 
     ProjectIconSVG 
-} from "../Svgs";
+} from "./Svgs";
 
 export function AppBar(){
 
