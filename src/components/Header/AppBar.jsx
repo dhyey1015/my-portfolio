@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { AppBarButton } from "./AppBarButton";
 import { 
     ContactMeIconSVG, 
@@ -9,6 +10,12 @@ import {
 
 export function AppBar(){
 
+   // for toggle betweent menu
+    const [menu, setMenu] = useState(false)
+    
+    function toggleMenu(){
+        setMenu(!menu)
+    }
     return(
         <div className="flex justify-between border border-gray-300">
             <div className="pl-8 pb-1">

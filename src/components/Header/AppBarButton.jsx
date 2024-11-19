@@ -1,8 +1,8 @@
 
-export function AppBarButton({label, component: Component}){
+export function AppBarButton({label, component: Component, onClick}){
 
     return(
-        <button className="p-5 hover:bg-slate-100">
+        <button className="p-5 hover:bg-slate-100" onClick={onClick}>
             <div className="flex">
                 <div className="pt-0.5">
                     {Component && <Component />}
