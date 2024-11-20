@@ -1,8 +1,9 @@
 
-export function AppBarButton({label, component: Component, onClick}){
+
+export function HomeButton({label, component: Component, onClick}){
 
     return(
-        <button className="p-3 hover:bg-slate-100" onClick={onClick}>
+        <button className="" onClick={onClick}>
             <div className="flex">
                 <div className="">
                     {Component && <Component />}
@@ -11,7 +12,6 @@ export function AppBarButton({label, component: Component, onClick}){
                     {label}
                 </div>
             </div>
-            
         </button>
     )
 }
