@@ -1,30 +1,11 @@
-// import myProfile from "public/images/myprofile.png"
+import { BulletPointIcon } from "./SvgsHome";
 
-import { HomeButton } from "./ButtonHome";
-import { Introduction } from "./Introduction";
-import { BulletPointIcon, GithubIcon, LinkedInIcon } from "./SvgsHome";
-import { WhatiDo } from "./WhatiDo";
 
-export function Home(){
+export function WhatiDo(){
+
     return(
-        <div>
-            <Introduction/>
-            <div className="flex justify-center">
-                <div className="p-1">
-                    <HomeButton component={GithubIcon} />
-                </div>
-                <div className="p-1">
-                    <HomeButton component={LinkedInIcon}/>
-                </div>
-            </div>
-            <br />
-            <br />
-            <div className="flex justify-center">
-                <div className="font-bold text-4xl">
-                    WHAT I DO?
-                </div>
-            </div>
-            <div className="flex justify-center">
+       <>
+        <div className="flex justify-center">
                 <div className="flex max-w-[1200px] w-[1200px] h-max[1000px] h-[500px]">
                     <div className="max-w[600] w-[600px]">
                     <div className="text-left py-20 px-16">
@@ -153,10 +134,7 @@ export function Home(){
                     </div>
                 </div>
             </div>
-            <div>
-            <WhatiDo/>
-            </div>
             
-        </div> 
+       </>
     )
 }
