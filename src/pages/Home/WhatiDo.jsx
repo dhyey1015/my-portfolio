@@ -63,7 +63,7 @@ export function WhatiDo(){
                 {/*start profile and introduction */}
                 <div className="flex max-w-[1200px] w-[1200px] h-max[1000px] h-[500px]">
                     <div className="flex justify-center max-w-[600px] w-[600px] h-max[400px] h-[400x] pt-[50px]">
-                        <img className="rounded-full h-[400px] w-[400px]" src="images/myprofile.png" alt="" />
+                        <img className="h-[400px] w-[400px]" src="images/cloudinfraimage1.png" alt="" />
                     </div>
                     <div className="pt-12">
                         <div class="h-[400px] min-h-[1em] w-[3px] self-stretch bg-gradient-to-tr from-transparent bg-slate-300 to-transparent opacity-25 dark:bg-slate-800"></div>
