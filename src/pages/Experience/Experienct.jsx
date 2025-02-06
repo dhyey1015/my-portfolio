@@ -27,9 +27,10 @@ export function Experience(){
             <div>
                 <ExpCard/>
             </div>
-            <div className="flex justify-center text-4xl p-12 font-extrabold">
-                Open Source 
-            </div>
+            {/* TODO <div className="flex justify-center text-4xl p-12 font-extrabold">
+                Open Source
+            </div> */}
+
         </div>
 
     )
